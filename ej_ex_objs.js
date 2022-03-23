@@ -28,7 +28,8 @@ function createEmpleado (nombre = '', departamento = 'General') {
   
   const empleado1 = createEmpleado('Federico')
   const empleado2 = createEmpleado('Pepe', 'Contabilidad')
-  console.log(empleado1, empleado2)
+  console.log(empleado1)
+  console.log(empleado2)
   
   const director1 = createDirector('Javier', undefined, ['informe prueba1', 'informe prueba2'])
   const director2 = createDirector('Manuel', 'Almacén')
