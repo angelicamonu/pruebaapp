@@ -27,19 +27,22 @@ function createEmpleado (nombre = '', departamento = 'General') {
   }
   
   const empleado1 = createEmpleado('Federico')
-  const empleado2 = createEmpleado('Pepe', 'Contabilidad')
   console.log(empleado1)
+  const empleado2 = createEmpleado('Pepe', 'Contabilidad')
   console.log(empleado2)
   
   const director1 = createDirector('Javier', undefined, ['informe prueba1', 'informe prueba2'])
+  console.log(director1)
   const director2 = createDirector('Manuel', 'Almacén')
-  console.log(director1, director2)
+  console.log(director2)
   
   const tecnico1 = createTecnico('Jesús')
+  console.log(tecnico1)
   const tecnico2 = createTecnico('Pedro', 'Almacén', ['proyecto prueba1', 'proyecto prueba2'])
-  console.log(tecnico1, tecnico2)
+  console.log(tecnico2)
   
   const ingeniero1 = createIngeniero('Rocío')
+  console.log(ingeniero1)
   const ingeniero2 = createIngeniero('Lucía', ['proyecto prueba1', 'proyecto prueba2'], 'calibrador')
-  console.log(ingeniero1, ingeniero2)
+  console.log(ingeniero2)
   
